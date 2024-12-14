@@ -1,0 +1,3 @@
+// This basically takes all the styles that were written and then when we use the util in our other styles, it will take all those styles there. So you can use it in any file that you need to. 
+@forward 'breakpoints';
+@forward 'functions';
