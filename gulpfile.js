@@ -61,3 +61,11 @@ exports.default = series(scssTask, jsTask, browserSyncServe, watchTask);
 
 // Build Gulp Task
 exports.build = series(scssTask, jsTask);
+
+exports.default = scssTask;
+exports.default = jsTask;
+exports.default = browserSyncServe;
+// exports.default = browserSyncReload;
+// exports.default = watchTask;
+
+// exports.default();
