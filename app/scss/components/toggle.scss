@@ -1,0 +1,11 @@
+@use '../utilities/' as *;
+
+.toggle {
+
+    &_buttopn {
+        border-radius: 50%;
+        width: rem(16);
+        height: rem(16);
+        background-color: var(--toggle);
+    }
+}
